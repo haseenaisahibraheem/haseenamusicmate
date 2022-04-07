@@ -1,0 +1,129 @@
+@import url("https://fonts.googleapis.com/css2?family=Merienda:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap");
+
+body {
+  margin: 0%;
+  background: rgb(34, 193, 195);
+  background: linear-gradient(
+    0deg,
+    rgba(34, 193, 195, 1) 0%,
+    rgba(253, 187, 45, 1) 100%
+  );
+}
+.App {
+  font-size: 1.5em;
+  min-height: 700px;
+  font-family: "Montserrat", sans-serif;
+  display: flex;
+  flex-direction: column;
+  color: white;
+  /* background: linear-gradient(#cc5333, #23074d); */
+}
+
+.navigation {
+  /* max-width: 600px; */
+  text-align: center;
+  margin: 0rem auto;
+  padding: 0rem;
+}
+
+.body-container {
+  max-width: 600px;
+  display: flex;
+  flex-direction: column;
+  margin: 0rem auto;
+  padding: 0.1rem;
+}
+
+button {
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5);
+}
+
+.hero {
+  margin: 1rem auto;
+  display: flex;
+}
+
+.hero-section {
+  margin: 1rem auto 0rem auto;
+  text-align: center;
+  padding: 0.5rem;
+  max-width: 400px;
+}
+
+.body-section {
+  margin: 1rem auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.section-album {
+  display: flex;
+  flex-direction: row;
+  margin: 0.5rem auto;
+  border-radius: 0.5rem;
+  padding: 0rem;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5);
+  background-color: #e5e7eb;
+  color: #1d4350;
+}
+
+.section-album-image {
+  margin-right: 1rem;
+}
+
+.section-image {
+  height: 100%;
+  width: 150px;
+  border-radius: 0.5rem;
+}
+
+.section-album-detail {
+  padding-top: 0.5rem;
+  width: 150px;
+  margin-bottom: 0.5rem;
+  margin-right: 1rem;
+}
+
+.hero span:active {
+  transform: scale(1.25);
+}
+
+button {
+  color: white;
+  background: transparent;
+}
+
+button:active {
+  transform: scale(1.25);
+}
+
+.footer {
+  text-align: center;
+  margin: 0rem auto 2rem auto;
+  width: 100%;
+  bottom: 0;
+}
+
+.footer-container {
+  max-width: 600px;
+  margin: 1rem auto;
+  display: flex;
+  flex-direction: column;
+  padding: 0rem;
+}
+
+.footer-social-link-bar {
+  max-width: 300px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 0.5rem auto 0rem auto;
+}
+
+.footer-social-link {
+  height: 2rem;
+  width: 2rem;
+  transition: 0.5s ease;
+  margin: 0rem 1rem;
+}
